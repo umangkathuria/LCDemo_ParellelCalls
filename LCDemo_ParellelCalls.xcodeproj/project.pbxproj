@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60EB61D1244C87C84DF16377 /* Pods_LCDemo_ParellelCalls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32BD52C91EFD845588C49C1 /* Pods_LCDemo_ParellelCalls.framework */; };
+		64D935592332159F00C49304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D935582332159F00C49304 /* AppDelegate.swift */; };
+		64D9355B2332159F00C49304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D9355A2332159F00C49304 /* ViewController.swift */; };
+		64D9355E2332159F00C49304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D9355C2332159F00C49304 /* Main.storyboard */; };
+		64D93560233215A000C49304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D9355F233215A000C49304 /* Assets.xcassets */; };
+		64D93563233215A000C49304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D93561233215A000C49304 /* LaunchScreen.storyboard */; };
+		64D9356B233215F000C49304 /* liquid.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64D9356A233215F000C49304 /* liquid.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64D935552332159F00C49304 /* LCDemo_ParellelCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCDemo_ParellelCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D935582332159F00C49304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64D9355A2332159F00C49304 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64D9355D2332159F00C49304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64D9355F233215A000C49304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D93562233215A000C49304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D93564233215A000C49304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D9356A233215F000C49304 /* liquid.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = liquid.bundle; sourceTree = "<group>"; };
+		BC5C34C00F1939C8FBEF4677 /* Pods-LCDemo_ParellelCalls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCDemo_ParellelCalls.debug.xcconfig"; path = "Target Support Files/Pods-LCDemo_ParellelCalls/Pods-LCDemo_ParellelCalls.debug.xcconfig"; sourceTree = "<group>"; };
+		D338F00548E65F66873A8692 /* Pods-LCDemo_ParellelCalls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCDemo_ParellelCalls.release.xcconfig"; path = "Target Support Files/Pods-LCDemo_ParellelCalls/Pods-LCDemo_ParellelCalls.release.xcconfig"; sourceTree = "<group>"; };
+		F32BD52C91EFD845588C49C1 /* Pods_LCDemo_ParellelCalls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCDemo_ParellelCalls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D935522332159F00C49304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EB61D1244C87C84DF16377 /* Pods_LCDemo_ParellelCalls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47B6D2110D53BF8BFC143848 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F32BD52C91EFD845588C49C1 /* Pods_LCDemo_ParellelCalls.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64D9354C2332159F00C49304 = {
+			isa = PBXGroup;
+			children = (
+				64D935572332159F00C49304 /* LCDemo_ParellelCalls */,
+				64D935562332159F00C49304 /* Products */,
+				6A990755F5D5E3797616C9EF /* Pods */,
+				47B6D2110D53BF8BFC143848 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64D935562332159F00C49304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D935552332159F00C49304 /* LCDemo_ParellelCalls.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D935572332159F00C49304 /* LCDemo_ParellelCalls */ = {
+			isa = PBXGroup;
+			children = (
+				64D9356A233215F000C49304 /* liquid.bundle */,
+				64D935582332159F00C49304 /* AppDelegate.swift */,
+				64D9355A2332159F00C49304 /* ViewController.swift */,
+				64D9355C2332159F00C49304 /* Main.storyboard */,
+				64D9355F233215A000C49304 /* Assets.xcassets */,
+				64D93561233215A000C49304 /* LaunchScreen.storyboard */,
+				64D93564233215A000C49304 /* Info.plist */,
+			);
+			path = LCDemo_ParellelCalls;
+			sourceTree = "<group>";
+		};
+		6A990755F5D5E3797616C9EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC5C34C00F1939C8FBEF4677 /* Pods-LCDemo_ParellelCalls.debug.xcconfig */,
+				D338F00548E65F66873A8692 /* Pods-LCDemo_ParellelCalls.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D935542332159F00C49304 /* LCDemo_ParellelCalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D93567233215A000C49304 /* Build configuration list for PBXNativeTarget "LCDemo_ParellelCalls" */;
+			buildPhases = (
+				B9F47C8786A26A3A9391C5F7 /* [CP] Check Pods Manifest.lock */,
+				64D935512332159F00C49304 /* Sources */,
+				64D935522332159F00C49304 /* Frameworks */,
+				64D935532332159F00C49304 /* Resources */,
+				B96FCD87F32BF1C42314F702 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCDemo_ParellelCalls;
+			productName = LCDemo_ParellelCalls;
+			productReference = 64D935552332159F00C49304 /* LCDemo_ParellelCalls.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D9354D2332159F00C49304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Umang Kathuria";
+				TargetAttributes = {
+					64D935542332159F00C49304 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 64D935502332159F00C49304 /* Build configuration list for PBXProject "LCDemo_ParellelCalls" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D9354C2332159F00C49304;
+			productRefGroup = 64D935562332159F00C49304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D935542332159F00C49304 /* LCDemo_ParellelCalls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D935532332159F00C49304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D93563233215A000C49304 /* LaunchScreen.storyboard in Resources */,
+				64D9356B233215F000C49304 /* liquid.bundle in Resources */,
+				64D93560233215A000C49304 /* Assets.xcassets in Resources */,
+				64D9355E2332159F00C49304 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B96FCD87F32BF1C42314F702 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCDemo_ParellelCalls/Pods-LCDemo_ParellelCalls-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LiquidCore/LiquidCore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LiquidCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LCDemo_ParellelCalls/Pods-LCDemo_ParellelCalls-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F47C8786A26A3A9391C5F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCDemo_ParellelCalls-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D935512332159F00C49304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D9355B2332159F00C49304 /* ViewController.swift in Sources */,
+				64D935592332159F00C49304 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64D9355C2332159F00C49304 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D9355D2332159F00C49304 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64D93561233215A000C49304 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D93562233215A000C49304 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D93565233215A000C49304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64D93566233215A000C49304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D93568233215A000C49304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5C34C00F1939C8FBEF4677 /* Pods-LCDemo_ParellelCalls.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCDemo_ParellelCalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umangkathuriaapps.LCDemo-ParellelCalls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64D93569233215A000C49304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D338F00548E65F66873A8692 /* Pods-LCDemo_ParellelCalls.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCDemo_ParellelCalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umangkathuriaapps.LCDemo-ParellelCalls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D935502332159F00C49304 /* Build configuration list for PBXProject "LCDemo_ParellelCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D93565233215A000C49304 /* Debug */,
+				64D93566233215A000C49304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D93567233215A000C49304 /* Build configuration list for PBXNativeTarget "LCDemo_ParellelCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D93568233215A000C49304 /* Debug */,
+				64D93569233215A000C49304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D9354D2332159F00C49304 /* Project object */;
+}
